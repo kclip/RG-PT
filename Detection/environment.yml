@@ -1,0 +1,33 @@
+name: ltt 
+channels:
+    - anaconda
+    - conda-forge
+    - pytorch
+dependencies:
+    - pip
+    - python
+    - numpy
+    - numpy-base
+    - matplotlib
+    - matplotlib-base
+    - scipy
+    - pytorch
+    - torchvision
+    - pandas
+    - pillow
+    - seaborn=0.10.1
+    - tqdm=4.47.0
+    - pyyaml
+    - pycocotools>=2.0.1
+    - seaborn
+    - statsmodels
+    - joblib
+    - iopath
+    - detectron2
+    - omegaconf
+    - scikit-learn
+    - pip:
+        - randaugment
+        - opencv-contrib-python
+        - xport
+        - inplace-abn
